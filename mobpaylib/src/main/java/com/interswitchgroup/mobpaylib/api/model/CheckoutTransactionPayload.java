@@ -64,6 +64,7 @@ public class CheckoutTransactionPayload {
         this.redirectUrl = "https://uat.quickteller.co.ke/";
         this.iconUrl = config.getIconUrl();
         this.providerIconUrl = config.getProviderIconUrl();
+        this.redirectUrl = config.getRedirectUrl();
         this.primaryAccentColor = config.getPrimaryAccentColor();
         this.preauth = 0;
         this.customerId = customer.getCustomerId();

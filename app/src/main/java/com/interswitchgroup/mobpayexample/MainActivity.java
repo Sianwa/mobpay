@@ -159,6 +159,7 @@ public class MainActivity extends AppCompatActivity {
             config.setIconUrl(customIconUrlField.getText().toString());
             config.setPrimaryAccentColor("#467ad2");
             config.setProviderIconUrl(customIconUrlField.getText().toString());
+            config.setRedirectUrl("https://www.google.com");
 
             try {
                 mobPay = MobPay.getInstance(MainActivity.this, clientId, clientSecret, config);

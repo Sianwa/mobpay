@@ -18,6 +18,7 @@ public class Config implements Serializable {
     private String iconUrl;
     private String primaryAccentColor;
     private String providerIconUrl;
+    private String redirectUrl;
 
 
     public List<MobPay.PaymentChannel> getChannels() {
@@ -56,6 +57,14 @@ public class Config implements Serializable {
 
     public void setProviderIconUrl(String providerIconUrl) {
         this.providerIconUrl = providerIconUrl;
+    }
+
+    public String getRedirectUrl() {
+        return redirectUrl;
+    }
+
+    public void setRedirectUrl(String redirectUrl) {
+        this.redirectUrl = redirectUrl;
     }
 
     public String getPrimaryAccentColor() {
